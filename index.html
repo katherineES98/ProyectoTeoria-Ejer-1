@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formulario de contacto</title>
+
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+
+    <script src="js/jquery-3.2.1.js"></script>
+  
+</head>
+<body>
+
+    <section class="form_wrap">
+
+        <section class="cantact_info">
+            <section class="info_title">
+               
+                <h2>INFORMACION<br>DE CONTACTO</h2>
+            </section>
+  
+        </section>
+
+        <form action="" class="form_contact">
+           
+            <div class="user_info">
+                <div>
+                    <label for="habitantes"> Cantidad de habitantes</label>
+                    <input type="text" id="habitantes" name="hab" value=3000>
+                </div>
+               
+                 <div>
+                    <label for="anual">Tasa Anual de natalidad</label>
+                    <input type="text" id="anual" name="anual" value=0.10>
+                 </div>
+               
+                 <div>
+                    <label for="mortalidad">Tasa anual de mortalidad</label>
+                    <input type="text" id="mortalidad" name="mortalidad" value=0.02>
+                 </div>
+                 <div>
+                    <label for="emigran">Porcentaje de personas emigran del pais</label>
+                    <input type="text" id="emigran" name="emigran" value=0.15>
+                 </div>
+                 <div>
+                    <label for="reg">Porcentaje de personas que regresan al pais</label>
+                    <input type="text" id="reg" name="reg" value=0.07>
+                 </div>
+
+                <div>
+                    <label for="anios">Años</label>
+                    <input type="text" id="anios" name="anios" value=4>
+                </div>
+                <div class="btn-send">
+                    <input type="button" value="Calcular" id="btnSend" onclick="btnCalcular()">
+                </div>
+              
+
+                <div>
+                    <label for="result" class="textresult">Resultados</label>
+                    <input type="text" id="result">
+                </div>
+
+            </div>
+        </form>
+
+    </section>
+
+    <script src="./js/index.js"></script>
+</body>
+</html>
