@@ -36,7 +36,7 @@ function btnCalcular(){
     }
 
    
-    inputR.value = Number.parseFloat(Acum).toFixed(30);
+    inputR.value = Number.parseFloat(Acum).toFixed(25);
     grafico(aniosArray, datosArray);
 }
 

@@ -69,15 +69,15 @@ body{
 }
 
 .espacio{
-    margin-left: 650px;
+    margin-left: 400px;
 }
 
 .textograf{
     text-align: center;
 }
 canvas{
-   height: 550px!important;
-   width: 650px!important;
+   height: 500px!important;
+   width: 500px!important;
 }
 
 .info_title,
@@ -268,4 +268,11 @@ form.form_contact input[type="button"]:hover{
 }
 
 
+
+
+.icon-svg{
+    position: relative;
+    left: 44%;
+    color: #ffd700;
+}
 
