@@ -75,7 +75,7 @@ function grafico(aniosArray, datosArray) {
             }]
         },
         options: {
-                indexAxis: 'y',  
+                indexAxis: 'x',  
         }
     });
 };
